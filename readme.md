@@ -9,7 +9,7 @@ A header and an example file is provided too
 
 # Notes
 The library is a C89 library. To use the helper macro *APPLY*, a C99 compiler is required\
-To use the library, just assemble a single assembly file with asmc or masm\
+To use the library, just assemble a single assembly file with asmc or masm, no dependency are required
 
 # Bugs/Limitations
 No 64-bit is provided (and is not planned due to windows and linux mess on passing parameters in 64 bit mode)\
