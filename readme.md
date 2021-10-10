@@ -13,4 +13,4 @@ To use the library, just assemble a single assembly file with asmc or masm, no d
 
 # Bugs/Limitations
 No 64-bit is provided (and is not planned due to windows and linux mess on passing parameters in 64 bit mode)\
-The functions that are passed to apply may not be static, especially if they take arguments
+The functions passed to apply must follow the _C calling convention_
